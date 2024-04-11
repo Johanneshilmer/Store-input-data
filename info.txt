@@ -1,0 +1,5 @@
+- node JS är för att köra JS utanför Browser
+- Byggd på Chrome V8 Engine
+- Stor Community
+- Full-Stack
+
