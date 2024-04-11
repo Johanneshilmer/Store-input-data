@@ -3,3 +3,15 @@
 - Stor Community
 - Full-Stack
 
+För mer info om JS 
+Youtube "Coding Addict" Javascript Nuggets.
+
+Skillnaden mellan Browser js och Node.js
+--Browser--        --Node.js--
+DOM                No DOM
+Window             No Window
+interactive Apps   Server side Apps
+No FIlesystem      FIlesystem
+Fragmentation      Versions
+ES6 Modules        CommonJs
+
