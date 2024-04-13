@@ -1,3 +1,5 @@
+Intro !!!!!!!
+
 - node JS är för att köra JS utanför Browser
 - Byggd på Chrome V8 Engine
 - Stor Community
@@ -15,3 +17,14 @@ No FIlesystem      FIlesystem
 Fragmentation      Versions
 ES6 Modules        CommonJs
 
+GLOBALS VERIBLE - NO Window
+För att få ut info om ditt projekt console.log(); nått av detta
+- __dirname -> path to current file directory
+- __filename -> file name
+- require -> function to use models (CommonJS)
+- module -> info about current module (file)
+- process -> info about env where the program is being executed
+
+Att köra ett node program 
+I console 
+- node filename.js
