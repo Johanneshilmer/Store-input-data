@@ -1,11 +1,13 @@
-const amount = 9
+// CommonJS, every file is module (by default)
+// Modules
 
-if (amount < 10) {
-  console.log("low");
-} else {
-  console.log("high");
+const johannes = "johannes";
+const hanna = "hanna";
+
+const sayHi = (name) => {
+  console.log(`Hello there ${name}`);
 }
 
-
-console.log("first shit... Hello World");
-console.log(__filename);
+sayHi("hanna och johannes")
+sayHi(johannes)
+sayHi(hanna)

@@ -28,3 +28,12 @@ För att få ut info om ditt projekt console.log(); nått av detta
 Att köra ett node program 
 I console 
 - node filename.js
+
+----------- Step 1 "Modules" ----------
+const johannes = "johannes";
+
+const sayHi = (name) => {
+  console.log(`Hello there ${name}`);
+}
+sayHi("hanna")
+sayHi(johannes)
