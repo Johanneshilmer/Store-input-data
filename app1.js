@@ -1,6 +1,8 @@
 // CommonJS, every file is module (by default)
 // Modules - Encapsulated Code (only share minimum)
 
+// Filer, utils.js names.js
+
 //Imports variable och function
 const names = require('./names');
 const sayHi = require('./utils');

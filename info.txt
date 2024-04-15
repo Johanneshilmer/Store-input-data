@@ -59,3 +59,12 @@ require('./utils')
 sayHi("hanna och johannes")
 sayHi(names.johannes)
 sayHi(names.hanna)
+
+
+----------- Step 2 "Built-in Modules" ----------
+
+- OS 
+- path
+- FIlesystem
+- http
+
