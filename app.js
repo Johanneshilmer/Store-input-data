@@ -1,13 +1,16 @@
 // CommonJS, every file is module (by default)
-// Modules
+// Modules - Encapsulated Code (only share minimum)
 
-const johannes = "johannes";
-const hanna = "hanna";
+//Imports variable och function
+const names = require('./names');
+const sayHi = require('./utils');
 
-const sayHi = (name) => {
-  console.log(`Hello there ${name}`);
-}
 
 sayHi("hanna och johannes")
-sayHi(johannes)
-sayHi(hanna)
+sayHi(names.johannes)
+sayHi(names.hanna)
+
+
+setInterval(() => {
+  console.log("Hejsan");
+}, 1000)
